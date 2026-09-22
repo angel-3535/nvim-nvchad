@@ -13,6 +13,13 @@ return {
     end,
   },
 
+  {
+    "mason-org/mason.nvim",
+    opts = {
+      ensure_installed = { "typescript-language-server" },
+    },
+  },
+
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 

@@ -37,7 +37,7 @@ end
 
 nv_lsp.defaults()
 
-local servers = { "html", "cssls" }
+local servers = { "html", "cssls", "ts_ls" }
 vim.lsp.enable(servers)
 
 -- read :h vim.lsp.config for changing options of lsp servers 
