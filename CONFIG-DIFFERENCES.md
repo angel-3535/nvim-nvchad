@@ -122,6 +122,8 @@ yanks, and allows `h/l` movement across line boundaries. Two-space indentation,
 right/below splits, persistent undo, and absolute line numbers are shared.
 The old yank-highlight autocmd and custom file/folder icons are not copied.
 The file explorer keeps NvChad's automatic focused-file tracking and styling.
+It opens automatically on interactive startup. Opening a file keeps focus in
+the editor; launching without a file focuses the explorer.
 
 Harpoon bookmarks and TODO files are separate under the NvChad data directory;
 existing old-config entries are not migrated. Project-runner commands remain
